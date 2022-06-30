@@ -1,0 +1,19 @@
+How to use the script,
+-Please add the IP of the Switch in the switch_lits file,Each ip should be added to one line each,
+Example
+10.XX.XX.XX
+1.XX.XX.XX
+15.XX.XX.XX
+
+********************
+How to run the scrip
+Username- Switch username
+Password:= Switch password
+IOs- IOS file need to be upload to the switch (ex:cat3k_caa-universalk9.16.12.07.SPA.bin)
+
+Run the Command in below format
+python Switch_upgrade.py username password iso_filename
+
+
+***********************************
+A report can be seen in Pre_upgrade.csv and post_upgrade.csv
